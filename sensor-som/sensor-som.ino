@@ -14,11 +14,10 @@ void loop() {
   if (!som) {
     if (!fanStatus) {
       digitalWrite(FAN_PIN, HIGH);
-      fanStatus = true;
     } else {
       digitalWrite(FAN_PIN, LOW);
-      fanStatus = false;      
     }
+    fanStatus = !fanStatus;
     delay(500);
   }
 }
