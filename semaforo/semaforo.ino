@@ -1,5 +1,5 @@
-#define RED_PIN 53
-#define YELLOW_PIN 52
+#define RED_PIN 52
+#define YELLOW_PIN 50
 #define GREEN_PIN 51
 
 void setup() {
